@@ -3,7 +3,8 @@ import numpy as np
 import operator
 import math
 
-from KNearestNeighbors import accuracy_score, k_fold_cross_validation
+from Scores import accuracy_score
+from Splits import k_fold_cross_validation
 
 
 class ForwardSelection:
